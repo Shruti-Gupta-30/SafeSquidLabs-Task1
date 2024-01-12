@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shruti Gupta portfolio</title>
+
+		<!--Google Font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!--Bootstrap-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
+		<!--Font Awesome-->
+		<script
+			src="https://kit.fontawesome.com/8f0f9d47bc.js"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="./projects.css" />
+	</head>
+	<body>
+		<div class="header_wrapper">
+			<header class="header">
+				<h1 id="logo">
+					<a href="./"> Shruti&ensp;Gupta</a>
+				</h1>
+
+				<div class="mlinks_wrapper" id="slinks">
+					<ul>
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../About/about.html"> About</a></li>
+						<li><a href="./projects.html">Projects</a></li>
+						<li><a href="../Contact/contact.html"> Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="menu_icon" id="menu">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</header>
+		</div>
+		<div class="projects_wrapper" id="projects">
+			<h3 class="featured mt-5 pt-5">--- Featured Projects ---</h3>
+			<h1><span class="heading">Stuff I have worked on </span>📁</h1>
+			<div class="menu">
+				<a href="#" class="btn" data-filter="all">All</a>
+				<a href="#" class="btn" data-filter="games">Games</a>
+				<a href="#" class="btn" data-filter="ott">Movies/Series</a>
+				<a href="#" class="btn" data-filter="weather">Weather Forecast</a>
+				<a href="#" class="btn" data-filter="note">Notemaking</a>
+			</div>
+			<div class="container all note">
+				<div class="row sub_container">
+					<div class="col-6">
+						<img src="../../images/notomatic.png" height="280" width="220" />
+					</div>
+					<div class="col-6 text">
+						<div class="row app_name">
+							<h2></h2>
+						</div>
+						<div class="row app_desc">
+							<h4></h4>
+							<h5
+								class="collapsible"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseExample1"
+								aria-expanded="false"
+								aria-controls="collapseExample"
+							>
+								&nbsp;Read More
+							</h5>
+						</div>
+
+						<div class="row visit">
+							<a
+								href=""
+								target="_blank"
+								style="text-decoration: none; color: #f4f4f4"
+								class="link"
+								><p>Visit the Website</p></a
+							>
+						</div>
+						<hr />
+						<div class="row git_row">
+							<div class="col-2"><i class="fa-brands fa-github"></i></div>
+							<div class="col-10">
+								<p class="tech_stack"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="collapse" id="collapseExample1">
+				<div class="read_more">
+					<h5>
+						A feature-rich WebApp designed to streamline note-taking among
+						groups by making use of redux and Firebase for persisting the notes
+						across users.
+					</h5>
+					<div class="list">
+						<ul>
+							<li>
+								Ensured an intuitive and error-free user interface by
+								incorporating sweetalert and validator service for efficient
+								error handling
+							</li>
+							<li>
+								Implemented Higher Order Components (HOCs) to safeguard routes
+								and utilized Firebase for user authentication, creating a secure
+								environment for users to protect their sensitive data.
+							</li>
+							<li>
+								Enhanced data accessibility by integrating redux-persist along
+								with Firebase allowing users to access their notes from any
+								device and ensuring data persistence.
+							</li>
+							<li>
+								Tuned React Router for fluid navigation and Redux Toolkit for
+								efficient data flow, providing a smooth user experience. This
+								allowed users to seamlessly transition between sections and
+								receive real-time updates
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container all weather">
+				<div class="row sub_container">
+					<div class="col-6">
+						<img src="../../images/sky-vue.jpg" height="280" width="220" />
+					</div>
+					<div class="col-6 text">
+						<div class="row app_name">
+							<h2></h2>
+						</div>
+						<div class="row app_desc">
+							<h4></h4>
+							<h5
+								class="collapsible"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseExample2"
+								aria-expanded="false"
+								aria-controls="collapseExample"
+							>
+								&nbsp;Read More
+							</h5>
+						</div>
+						<div class="row visit">
+							<a
+								href=""
+								target="_blank"
+								style="text-decoration: none; color: #f4f4f4"
+								class="link"
+								><p>Visit the Website</p></a
+							>
+						</div>
+						<hr />
+						<div class="row git_row">
+							<div class="col-2"><i class="fa-brands fa-github"></i></div>
+							<div class="col-10">
+								<p class="tech_stack"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="collapse" id="collapseExample2">
+				<div class="read_more">
+					<h5>
+						A user-centric application that seamlessly integrates OpenWeatherAPI
+						to deliver accurate and timely weather information.
+					</h5>
+					<div class="list">
+						<ul>
+							<li>
+								Conceptualized, designed, developed, and deployed “SkyVue”,
+								ensuring a responsive and interactive UI.
+							</li>
+							<li>
+								Leveraged React Hooks for advanced State Management and
+								effective handling of side effects, such as data-fetching and
+								re-rendering to update real-time data across components.
+							</li>
+							<li>
+								Enhanced user experience by offering unit flexibility, allowing
+								users to switch between Imperial/metric units and displaying the
+								current time for the searched city for the convenience of global
+								users.
+							</li>
+							<li>
+								Utilized OpenWeatherAPI data to dynamically adjust the
+								background based on current weather conditions as well as
+								engineered a 7-day weather-forecast display for detailed
+								planning and preparedness.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container all games">
+				<div class="row sub_container">
+					<div class="col-6">
+						<img src="../../images/jumpmania.png" height="280" width="220" />
+					</div>
+					<div class="col-6 text">
+						<div class="row app_name">
+							<h2></h2>
+						</div>
+						<div class="row app_desc">
+							<h4></h4>
+							<h5
+								class="collapsible"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseExample3"
+								aria-expanded="false"
+								aria-controls="collapseExample"
+							>
+								&nbsp;Read More
+							</h5>
+						</div>
+						<div class="row visit">
+							<a
+								href=""
+								target="_blank"
+								style="text-decoration: none; color: #f4f4f4"
+								class="link"
+								><p>Visit the Website</p></a
+							>
+						</div>
+						<hr />
+						<div class="row git_row">
+							<div class="col-2"><i class="fa-brands fa-github"></i></div>
+							<div class="col-10">
+								<p class="tech_stack"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="collapse" id="collapseExample3">
+				<div class="read_more">
+					<h5>
+						A JavaScript-based 2D game featuring a seamless blend of
+						HTML5-s(canvas) element and custom JavaScript classes, inspired by
+						the Mario series.
+					</h5>
+					<div class="list">
+						<ul>
+							<li>
+								Enhanced the gaming experience by implementing animation loops
+								to provide smooth and dynamic character movements, creating an
+								engaging and immersive gameplay feel.
+							</li>
+							<li>
+								Employed custom JavaScript classes to efficiently render in-game
+								platforms, the player character, and various objects, ensuring a
+								visually appealing game environment.
+							</li>
+							<li>
+								Incorporated features like character death, victory, and
+								responsive player movements showcasing strong JavaScript
+								development skills.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container all ott">
+				<div class="row sub_container">
+					<div class="col-6">
+						<img src="../../images/bingebuddy.png" height="280" width="220" />
+					</div>
+					<div class="col-6 text">
+						<div class="row app_name">
+							<h2 id="pname"></h2>
+						</div>
+						<div class="row app_desc">
+							<h4></h4>
+							<h5
+								class="collapsible"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseExample4"
+								aria-expanded="false"
+								aria-controls="collapseExample"
+							>
+								&nbsp;Read More
+							</h5>
+						</div>
+						<div class="row visit">
+							<a
+								href=""
+								target="_blank"
+								style="text-decoration: none; color: #f4f4f4"
+								class="link"
+								><p>Visit the Website</p></a
+							>
+						</div>
+						<hr />
+						<div class="row git_row">
+							<div class="col-2"><i class="fa-brands fa-github"></i></div>
+							<div class="col-10">
+								<p class="tech_stack"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="collapse" id="collapseExample4">
+				<div class="read_more">
+					<h5>
+						A dynamic web application designed to help users find their next
+						favorite TV show effortlessly with the power of TMDB (The Movie
+						Database)- API.
+					</h5>
+					<div class="list">
+						<ul>
+							<li>
+								Leveraged React hooks (useState, useEffect) for efficient state
+								management and re-rendering.
+							</li>
+							<li>
+								Implemented asynchronous try-catch blocks to gracefully manage
+								errors, ensuring a smooth user experience even when unexpected
+								issues occur during the search process. This commitment to error
+								handling enhances the application’s reliability.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<h1 id="logo">Shruti&ensp;Gupta</h1>
+			<div class="contact">
+				<h3>Don't be a stranger!</h3>
+				<div class="icons">
+					<a href="https://github.com/Shruti-Gupta-30" target="_blank"
+						><i class="fa-brands fa-github"></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/shruti-gupta---dob--30-10-/"
+						target="_blank"
+						><i class="fa-brands fa-linkedin"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+		<script src="./projects.js"></script>
+	</body>
+</html>

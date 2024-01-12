@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<projects>
+<project id="1">
+<name> Notomatic</name>
+<description> A Notes Manager </description>
+<url>https://notomatic.netlify.app/</url>
+<tech_stack>React JS, Redux-Toolkit, Firebase, HTML, CSS</tech_stack>
+</project>
+<project id="2">
+<name> SkyVue</name>
+<description> A Weather Forecast App </description>
+<url>https://sky-vue-mu.vercel.app/</url>
+<tech_stack>React JS, OpenWeatherMapAPI, HTML, CSS</tech_stack>
+</project>
+<project id="3">
+<name> JumpMania</name>
+<description> A Side-Scrolling Platform Game </description>
+<url>https://jump-mania.vercel.app/</url>
+<tech_stack>JavaScript, HTML5 (Canvas) , Animation, CSS</tech_stack>
+</project>
+<project id="4">
+<name> BingeBuddy</name>
+<description> A TV Show Recommender </description>
+<url>https://binge-buddy.vercel.app/</url>
+<tech_stack>React JS, HTML, CSS, TheMovieDatabase - API</tech_stack>
+</project>
+</projects>
